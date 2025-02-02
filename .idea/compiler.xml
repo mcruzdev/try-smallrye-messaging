@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for smallrye-reactive-messaging-my" enabled="true">
+        <sourceOutputDir name="target/generated-sources" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="org.jboss.logging.tools.addGeneratedAnnotation" value="false" />
+        <processor name="io.smallrye.reactive.messaging.connector.ConnectorAttributeProcessor" />
+        <processor name="org.jboss.logging.processor.apt.LoggingToolsProcessor" />
+        <module name="smallrye-reactive-messaging-my" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
