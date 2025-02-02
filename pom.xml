@@ -89,6 +89,13 @@
       <artifactId>slf4j-log4j12</artifactId>
       <scope>test</scope>
     </dependency>
+
+<!--    dapr-->
+    <dependency>
+      <groupId>io.dapr</groupId>
+      <artifactId>dapr-sdk</artifactId>
+      <version>1.12.0</version>
+    </dependency>
   </dependencies>
 
   <build>
